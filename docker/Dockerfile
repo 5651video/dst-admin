@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM --platform=linux/arm64 debian:latest
 
 ENV LANG C.UTF-8
 RUN rm -f /etc/localtime \
